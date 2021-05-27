@@ -1,7 +1,7 @@
 array = [1,2,3]
 def square_array(array)
   new_array = []
-  array.each { |element| element ** 2 }.unshift(new_array)
+  array.each { |element| square = element ** 2 }.unshift(square)
   new_array
 end
 
