@@ -7,6 +7,6 @@ end
 
 
 #higher level iterator
-#def square_array(array)
-#  array.map { |element| element ** 2 }
-#end
+def square_array(array)
+  array.map { |element| element ** 2 }
+end
