@@ -1,4 +1,3 @@
-array = [1,2,3]
 def square_array(array)
  counter = 0
  squared = []
@@ -11,10 +10,8 @@ def square_array(array)
 end
 
 
-p square_array(array)
 
-
-#higher level iterator
-#def square_array(array)
-#  array.map { |element| element ** 2 }
-#end
+higher level iterator
+def square_array(array)
+  array.map { |element| element ** 2 }
+end
