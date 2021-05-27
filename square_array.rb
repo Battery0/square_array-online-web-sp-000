@@ -11,7 +11,7 @@ end
 
 
 
-higher level iterator
+#higher level iterator
 def square_array(array)
   array.map { |element| element ** 2 }
 end
