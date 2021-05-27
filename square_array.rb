@@ -1,14 +1,7 @@
 def square_array(array)
- counter = 0
- squared = []
- 
- while counter < array.length do
-   squared.push(array[counter] ** 2)
-   counter += 1
- end
- 
- squared
- 
+  squared_array = []
+  array.each { |element| squared_array.push(element ** 2) }
+  squared_array
 end
 
 
