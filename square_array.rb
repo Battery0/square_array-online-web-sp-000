@@ -1,8 +1,8 @@
 array = [1,2,3]
 def square_array(array)
-
+new_array = []
   square = array.each { |element| element ** 2 }.push(new_array)
-  new_array = []
+  
 end
 
 p square_array(array)
