@@ -5,7 +5,7 @@ def square_array(array)
   p new_array
 end
 
-p square_array(array)
+square_array(array)
 
 
 #higher level iterator
