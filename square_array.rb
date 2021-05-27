@@ -11,7 +11,7 @@ def square_array(array)
 end
 
 
-square_array(array)
+p square_array(array)
 
 
 #higher level iterator
